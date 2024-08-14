@@ -16,5 +16,5 @@ $o=New-Object -ComObject WScript.Shell;
 $o.SendKeys('f');
 
 #wait 30 seconds before enable touchpad
-sleep 1;
+sleep 30;
 Enable-PnpDevice -InstanceId "$t" -Confirm:$false;
